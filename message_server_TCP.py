@@ -1,6 +1,6 @@
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('192.168.1.70', 8888))
+s.bind(('server ip', 8888))
 s.listen(5)
 while True:
     try:
